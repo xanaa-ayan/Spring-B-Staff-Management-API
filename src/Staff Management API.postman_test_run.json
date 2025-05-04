@@ -1,0 +1,158 @@
+{
+	"id": "710be5c6-629e-4453-86fb-f8e11eb2e91c",
+	"name": "Staff Management API",
+	"timestamp": "2025-05-03T17:50:23.934Z",
+	"collection_id": "44610028-23a7c369-25d5-4602-8c6f-2149d070488a",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "error",
+	"startedAt": "2025-05-03T17:50:21.711Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "1289b636-9d02-4eda-bbcc-fe517e917af8",
+			"name": "Create(POST)",
+			"url": "http://localhost:8080/staffs",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				11
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0a924de3-15a1-4abb-85e8-f87d176ecd7d",
+			"name": "Read All(GET)",
+			"url": "http://localhost:8080/staffs",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "69b4aec5-6c2c-484e-87b8-b83a85add4c2",
+			"name": "Read One (GET)",
+			"url": "http://localhost:8080/staffs/2",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5ba8d651-518a-40ce-aeae-5f09d4109053",
+			"name": "Update(PUT)",
+			"url": "http://localhost:8080/staffs/1",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				8
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "262cb2ea-121e-49fc-a8be-df6f88d67995",
+			"name": "Delete(DELETE)",
+			"url": "http://localhost:8080/staffs/2",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6fa7ffda-5b81-4e13-850a-f69d909c4ead",
+			"name": "Wrong Method",
+			"url": "http://localhost:8080/staffs/34",
+			"time": 9,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				9
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 43,
+	"collection": {
+		"requests": [
+			{
+				"id": "1289b636-9d02-4eda-bbcc-fe517e917af8",
+				"method": "POST"
+			},
+			{
+				"id": "0a924de3-15a1-4abb-85e8-f87d176ecd7d",
+				"method": "GET"
+			},
+			{
+				"id": "69b4aec5-6c2c-484e-87b8-b83a85add4c2",
+				"method": "GET"
+			},
+			{
+				"id": "5ba8d651-518a-40ce-aeae-5f09d4109053",
+				"method": "PUT"
+			},
+			{
+				"id": "262cb2ea-121e-49fc-a8be-df6f88d67995",
+				"method": "DELETE"
+			},
+			{
+				"id": "6fa7ffda-5b81-4e13-850a-f69d909c4ead",
+				"method": "POST"
+			},
+			{
+				"id": "7bad38e9-36fe-490e-8fb9-271346141fd0",
+				"method": "GET"
+			}
+		]
+	}
+}
